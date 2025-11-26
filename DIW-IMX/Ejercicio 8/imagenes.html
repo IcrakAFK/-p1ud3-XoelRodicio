@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería Urdaibai — Licencias</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+      vertical-align: middle;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    img {
+      max-width: 100px;
+      height: auto;
+      display: block;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+      th {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+      tr {
+        margin-bottom: 1em;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 4px;
+      }
+      td {
+        border: none;
+        padding: 5px 0;
+      }
+      td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: inline-block;
+        width: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>Galería Urdaibai — Licencias</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Licencia</th>
+      <th>Imagen</th>
+      <th>Autor</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Licencia">Dominio público</td>
+      <td data-label="Imagen"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Urdaibai_detalle.png/200px-Urdaibai_detalle.png" alt="Urdaibai detalle"></td>
+      <td data-label="Autor">Txo</td>
+      <td data-label="URL"><a href="https://commons.wikimedia.org/wiki/File:Urdaibai_detalle.png" target="_blank">Ver imagen</a></td>
+    </tr>
+    <tr>
+      <td data-label="Licencia">CC BY 4.0</td>
+      <td data-label="Imagen"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Urdaibai%2C_Bizkaia%2C_Euskal_Herria.jpg/200px-Urdaibai%2C_Bizkaia%2C_Euskal_Herria.jpg" alt="Urdaibai aérea"></td>
+      <td data-label="Autor">Mikel Arrazola</td>
+      <td data-label="URL"><a href="https://commons.wikimedia.org/wiki/File:Urdaibai,_Bizkaia,_Euskal_Herria.jpg" target="_blank">Ver imagen</a></td>
+    </tr>
+    <tr>
+      <td data-label="Licencia">CC BY‑SA</td>
+      <td data-label="Imagen"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Costa_de_Urdaibai.jpg/200px-Costa_de_Urdaibai.jpg" alt="Costa de Urdaibai"></td>
+      <td data-label="Autor">RincewindDC</td>
+      <td data-label="URL"><a href="https://commons.wikimedia.org/wiki/File:Costa_de_Urdaibai.jpg" target="_blank">Ver imagen</a></td>
+    </tr>
+    <tr>
+      <td data-label="Licencia">CC BY‑SA</td>
+      <td data-label="Imagen"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Urdaibai_itasadarra1.jpg/200px-Urdaibai_itasadarra1.jpg" alt="Urdaibai itasadarra1"></td>
+      <td data-label="Autor">Telle</td>
+      <td data-label="URL"><a href="https://commons.wikimedia.org/wiki/File:Urdaibai_itasadarra1.jpg" target="_blank">Ver imagen</a></td>
+    </tr>
+    <tr>
+      <td data-label="Licencia">CC BY‑SA</td>
+      <td data-label="Imagen"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Urdaibai_7.JPG/200px-Urdaibai_7.JPG" alt="Urdaibai 7"></td>
+      <td data-label="Autor">Telle</td>
+      <td data-label="URL"><a href="https://commons.wikimedia.org/wiki/File:Urdaibai_7.JPG" target="_blank">Ver imagen</a></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
